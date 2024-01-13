@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1705173959249,
+      "tag": "0000_marvelous_flatman",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1705177940159,
+      "tag": "0001_optimal_talisman",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1705182821800,
+      "tag": "0002_steep_king_cobra",
+      "breakpoints": true
+    }
+  ]
+}

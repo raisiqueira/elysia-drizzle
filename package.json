@@ -1,0 +1,30 @@
+{
+  "name": "elysia-drizle",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "tsx": "tsx",
+    "create-migration": "drizzle-kit generate:pg",
+    "migrate": "bun run ./db/migrate.ts",
+    "prettier": "prettier",
+    "prettier:fix": "prettier src --write"
+  },
+  "dependencies": {
+    "@bogeychan/elysia-logger": "^0.0.15",
+    "@elysiajs/swagger": "^0.8.3",
+    "drizzle-orm": "^0.29.3",
+    "elysia": "latest",
+    "pg": "^8.11.3",
+    "postgres": "^3.4.3"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/pg": "^8.10.9",
+    "bun-types": "latest",
+    "drizzle-kit": "^0.20.12",
+    "prettier": "^3.2.1",
+    "tsx": "^4.7.0"
+  },
+  "module": "src/index.js"
+}
